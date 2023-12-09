@@ -33,7 +33,7 @@ first_list.next.next = ListNode(4)
 
 second_list = ListNode(1)
 second_list.next = ListNode(3)
-second_list.next.next = ListNode(6)
+second_list.next.next = ListNode(5)
 
 merged_list = mergeTwoLists(first_list, second_list) # Using the created function, merge two lists
 
